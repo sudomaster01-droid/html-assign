@@ -1,0 +1,151 @@
+/* GENERAL PAGE DESIGN */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f7fb;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+}
+
+/* MAIN CONTENT AREA */
+.container {
+    width: 85%;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* NAVIGATION MENU */
+nav {
+    background-color: #123456;
+    padding: 16px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #87ceeb;
+    text-decoration: underline;
+}
+
+/* HEADINGS */
+h1 {
+    color: #123456;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #1b4965;
+    margin-top: 25px;
+}
+
+h3 {
+    color: #2878a8;
+}
+
+/* HOME PAGE PHOTOGRAPH */
+.profile-photo {
+    width: 190px;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+    border-radius: 8px;
+    border: 3px solid #123456;
+}
+
+/* HORIZONTAL RULE */
+hr {
+    border: none;
+    border-top: 2px solid #123456;
+    margin: 20px 0;
+}
+
+/* CV TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    color: lightblue;
+    background-color: #123456;
+    padding: 14px;
+    border: 1px solid green;
+}
+
+td {
+    padding: 12px;
+    border: 1px solid green;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f0f8ff;
+}
+
+/* LISTS */
+ul {
+    padding-left: 30px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* EMAIL LINK */
+.email-button {
+    display: inline-block;
+    background-color: #123456;
+    color: white;
+    padding: 12px 22px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.email-button:hover {
+    background-color: #2878a8;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    color: #666666;
+    margin-top: 25px;
+}
+
+/* MOBILE RESPONSIVENESS */
+@media screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 6px;
+        font-size: 14px;
+    }
+
+    table {
+        font-size: 13px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+}
